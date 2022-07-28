@@ -15,9 +15,11 @@
 }
 .btn {
   display: inline-block;
+  align-self: center;
   background-color: #862FA0;
   padding: 10px 16px;
   border-radius: 10px;
   margin-top: 20px;
   font-weight: 500;
+  margin-left: 170px;
 }

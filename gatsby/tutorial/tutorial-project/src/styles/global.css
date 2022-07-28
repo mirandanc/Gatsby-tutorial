@@ -25,23 +25,30 @@ p {
   margin: 0 auto;
 }
 nav {
-  display: grid;
+
   grid-template-columns: 1fr 1fr 1fr;
   margin: 40px auto;
+  position: relative;
 }
 nav .links {
   display: inline-block;
   text-align: right;
 }
 nav a {
-  display: inline-block;
-  margin-left: 20px;
+  position: relative;
+  float: right;
+  display: block;
+  margin-left: 10px;
   font-weight: 400;
   padding-bottom: 8px;
   border-bottom: 3px solid transparent;
+  text-align: right;
 }
 footer p{
   text-align: center;
   margin: 40px auto;
   color: #bbb;
+}
+h1{
+  position: absolute;
 }

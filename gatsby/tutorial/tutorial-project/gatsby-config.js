@@ -6,5 +6,21 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-transformer-remark`,
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name:`projects`,
+        path: `${__dirname}/src/projects/`,
+      },
+    },
+  ],
+  siteMetadata: {
+    title: 'Vupty',
+    description: 'Vupty é uma loja online de produtos de limpeza, higiene e alimentação.',
+    copyright: 'This website is copyright © 2020 by Vupty. All rights reserved.',
+  }
 }

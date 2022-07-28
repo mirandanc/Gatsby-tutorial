@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Sagoe UI';
+  src: local('Sagoe UI'), url(../fonts/Segoe\ UI.woff) format('truetype');}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Sagoe UI', sans-serif;
+  color: white;
+}
+html, body {
+  min-height: 100%;
+}
+body {
+  background: radial-gradient(at top left, rgba(83,191,157,0.7) 0%, rgba(2, 34, 54, 1) 100%);
+  background-repeat: no-repeat;
+}
+p {
+  margin: 16px auto;
+  line-height: 1.5em;
+}
+.layout {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 40px auto;
+}
+nav .links {
+  display: inline-block;
+  text-align: right;
+}
+nav a {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 400;
+  padding-bottom: 8px;
+  border-bottom: 3px solid transparent;
+}
+footer p{
+  text-align: center;
+  margin: 40px auto;
+  color: #bbb;
+}
